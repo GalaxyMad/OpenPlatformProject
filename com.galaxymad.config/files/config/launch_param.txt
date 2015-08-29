@@ -1,0 +1,12 @@
+# for jetty server 
+-Djetty.host=0.0.0.0
+-Djetty.port=80
+-Djetty.port.ssl=443
+-Djetty.home=com.galaxymad.config/files/jettyhome
+
+# for osgi http config gui 
+wrapper.java.additional.21=-Dorg.osgi.service.http.port=8080
+
+# for felix file install
+-Dfelix.fileinstall.dir=com.galaxymad.config/file/config/
+-Dfelix.fileinstall.start.level=4

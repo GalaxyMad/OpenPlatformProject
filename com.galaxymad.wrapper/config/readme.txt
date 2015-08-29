@@ -1,0 +1,1 @@
+contain all configuration file and wrapper in order to launch the component in eclipse and as a linux or windows service 
